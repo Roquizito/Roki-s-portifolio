@@ -1,0 +1,136 @@
+.content-header{
+    background-color: rgb(4, 4, 43);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: 1px solid black;
+    
+}
+.content-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    }
+.content-header header .logo a{
+    font-family: 'race';
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.59);
+    text-decoration: none;
+    }
+.content-header header ul{
+    display: flex;
+    list-style: none;    
+}
+.content-header header nav ul li a{
+    text-align: none;
+    color: darkgrey;
+    margin: 0 30px;
+    padding: 5px;
+    transition: 5s;
+    font-family: 'race';
+    text-decoration: none;
+}
+
+.nav-responsive{
+    background-color: rgba(169, 169, 169, 0.538);
+    color: rgb(2, 49, 96);
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    display: none;
+}
+.content-img{
+    border-radius: 50%;
+    align-items: center;
+    clip-path: circle();
+    margin-top: 30px;
+}
+
+.fim{
+    background-color:rgb(4, 4, 43);
+    position: relative;
+    padding: 3px;
+    width: 100%;
+    font-family: 'tecno';
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.main {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-image: url(Images/fundo\ definitivo\ \(2\).gif);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: fixed;
+        position: relative;
+        color: rgba(255, 255, 255, 0.778) ;
+}
+
+.corner-text{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(4, 4, 43, 0.597) ;
+    border-radius: 10px;
+    color: darkgray ;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    line-height: 1.5;
+    margin-bottom: 122px;    
+    }
+
+
+section{
+    display: grid;      
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgba(4, 4, 43, 0.597);
+    color: darkgray ;
+    font-family: tecno; 
+    text-align: center;
+    padding: 30px;
+         
+    }
+.socialmedia{
+    a{
+        color: darkgray;        
+    } 
+    a:hover{
+        color: dimgray;
+    }
+    a:visited{
+        color: rgba(165, 165, 190, 0.597);
+    }
+} 
+   .hidden{
+    opacity: 0;
+    
+   }
+   .show{
+    opacity: 1;
+   }
