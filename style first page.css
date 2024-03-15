@@ -134,3 +134,13 @@ section{
    .show{
     opacity: 1;
    }
+   .project{
+    background-color: rgba(4, 4, 43, 0.829);
+    border-radius: 10px;
+    border-image: 10px;
+    max-width: 500px;
+    padding: 10px;
+    align-items: center;
+    
+
+   }
